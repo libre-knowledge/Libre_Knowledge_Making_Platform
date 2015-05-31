@@ -8,7 +8,7 @@
 
 ## 本專案採用的智慧財產授權條款<br />Intellectual Property License of This Project
 除了特別標示的內容以外，本專案的內容採用 [Creative Commons BY-SA 授權條款第 3.0 或其任意更近期版本](https://creativecommons.org/licenses/by-sa/3.0/tw/)。  
-Except for specified ones, contents of this project uses [Creative Commons BY-SA License version 3.0(or later)].
+Except for specified ones, contents of this project uses [Creative Commons BY-SA License version 3.0(or later)](https://creativecommons.org/licenses/by-sa/3.0).
 
 要求「相同方式分享(SA)」的目的為保護知識的自由度。  
 The motivation of requesting "Shared-Alike(SA)" is to protect knowledge's freedom.
