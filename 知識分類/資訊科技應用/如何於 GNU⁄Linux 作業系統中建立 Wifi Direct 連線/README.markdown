@@ -153,7 +153,7 @@ Wiphy phy0
 `Supported interface modes` 清單中有列出 `P2P-GO` 與 `P2P-client` 就代表您的 Wi-Fi 無線網路介面卡支援 Wi-Fi Direct，**沒有就代表不支援**。
 
 ## 2. 讓 Network Manager 不管理 Wi-Fi 無線網路介面卡
-![Network Manager 連線設定頁面](./圖片/由於 Network Manager 目前(2015⁄6⁄1)不支援 Wi-Fi Direct 連線.png)
+![Network Manager 連線設定頁面](./Pictures/%E7%94%B1%E6%96%BC%20Network%20Manager%20%E7%9B%AE%E5%89%8D%282015%E2%81%846%E2%81%841%29%E4%B8%8D%E6%94%AF%E6%8F%B4%20Wi-Fi%20Direct%20%E9%80%A3%E7%B7%9A.png)
 
 由於 Network Manager 目前(2015/6/1)不支援 Wi-Fi Direct 連線，所以我們要讓 Network Manager 不管理 Wi-Fi 無線網路介面卡以避免發生衝突問題。參考 `NetworkManager.conf` 位於第五區的 Manpage 格式說明文件**以 `root` 身份**編輯 `/etc/NetworkManager/NetworkManager.conf` 設定檔，於 `keyfile` 區域建立一個叫作 `unmanaged-devices` 的 key 其值為 `mac:〈以冒號分隔的網路介面 MAC 地址〉`，如果有多個網路介面的話以英式分號(;)分隔，例如：
 
