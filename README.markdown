@@ -1,5 +1,5 @@
 # 自由知識創作平台<br />Libre Knowledge Making Platform(L.K.M.P.)
-<https://github.com/Vdragon/Libre_Knowledge_Making_Platform>
+<https://github.com/Libre-Knowledge-Making-Platform/Libre_Knowledge_Making_Platform>
 
 > 來源程式碼應可以自由存取，知識當然也可以。  
 > Source code should be used in freedom, so should knowledge.  
