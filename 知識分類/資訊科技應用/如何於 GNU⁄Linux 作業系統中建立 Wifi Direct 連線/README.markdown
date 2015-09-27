@@ -171,6 +171,7 @@ Wiphy phy0
 * [Wi-Fi Direct | Wi-Fi Alliance](http://www.wi-fi.org/discover-wi-fi/wi-fi-direct)
 * [How to Setup Wi-Fi Direct on Android/Ubuntu Terminal – Part1 | அருண் வலைப்பூ - Arun's Blog](https://thangamaniarun.wordpress.com/2013/03/03/how-to-use-wi-fi-direct-on-androidubuntu-part1/)
 * [wireless - How to get wifi direct( wifi p2p) on my HP DM1 laptop? - Ask Ubuntu](http://askubuntu.com/questions/258027/how-to-get-wifi-direct-wifi-p2p-on-my-hp-dm1-laptop)
+* `NetworkManager.conf` 位於第五區的 Manpage 格式說明文件
 
 ## 本目錄下的項目說明<br />Description of the items under this directory
 ### [目錄說明文件.md<br />README.md](README.md)
