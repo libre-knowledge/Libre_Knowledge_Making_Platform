@@ -1,6 +1,6 @@
 # 如何於 GNU⁄Linux 作業系統中建立 Wifi Direct 連線<br />How to Establish Wifi Direct Connection in a GNU/Linux Operating System
-Wi-Fi Direct，之前曾被稱為Wi-Fi 點對點（Wi-Fi Peer-to-Peer），是一套軟體協定，讓 wifi 裝置可以不必透過無線網路基地台（Access Point），以點對點的方式，直接與另一個 wifi 裝置連線，進行高速資料傳輸。這個協定由 Wi-Fi 聯盟發展、支援與授與認證，通過認證的產品將可獲得Wi-Fi 認證 Wi-Fi Direct 標誌。
-（內容引用自 [Alfredo ougaowen](http://zh.wikipedia.org/wiki/User:Alfredo_ougaowen) 等人撰寫之維基百科條目：[Wi-Fi直連 - 維基百科，自由的百科全書](http://zh.wikipedia.org/wiki/Wi-Fi%E7%9B%B4%E8%BF%9E)）
+Wi-Fi Direct，之前曾被稱為Wi-Fi 點對點（Wi-Fi Peer-to-Peer(P2P)），是個讓 wifi 裝置可以不必如 Infrastructure 模式那樣所有通訊都要經過無線網路基地台（Access Point），以點對點的型式直接與另一個 wifi 裝置連線，進行高速資料傳輸的協定。
+（內容改寫自 [Alfredo ougaowen](http://zh.wikipedia.org/wiki/User:Alfredo_ougaowen) 等人撰寫之維基百科條目：[Wi-Fi直連 - 維基百科，自由的百科全書](http://zh.wikipedia.org/wiki/Wi-Fi%E7%9B%B4%E8%BF%9E)）
 
 本教材的目的是在 GNU/Linux 作業系統中嘗試建立此類連線。
 
