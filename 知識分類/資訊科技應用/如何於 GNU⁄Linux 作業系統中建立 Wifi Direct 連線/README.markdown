@@ -155,7 +155,14 @@ Wiphy phy0
 ## 2. 讓 Network Manager 不管理 Wi-Fi 無線網路介面卡
 ![Network Manager 連線設定頁面](./圖片/由於 Network Manager 目前(2015⁄6⁄1)不支援 Wi-Fi Direct 連線.png)
 
-由於 Network Manager 目前(2015/6/1)不支援 Wi-Fi Direct 連線，所以我們要讓 Network Manager 不管理 Wi-Fi 無線網路介面卡以避免發生衝突問題。
+由於 Network Manager 目前(2015/6/1)不支援 Wi-Fi Direct 連線，所以我們要讓 Network Manager 不管理 Wi-Fi 無線網路介面卡以避免發生衝突問題。參考 `NetworkManager.conf` 位於第五區的 Manpage 格式說明文件**以 `root` 身份**編輯 `/etc/NetworkManager/NetworkManager.conf` 設定檔，於 `keyfile` 區域建立一個叫作 `unmanaged-devices` 的 key 其值為 `mac:〈以冒號分隔的網路介面 MAC 地址〉`，如果有多個網路介面的話以英式分號(;)分隔，例如：
+
+```
+[keyfile]
+unmanaged-devices=mac:00:22:68:1c:59:b1;mac:00:1E:65:30:D1:C4
+```
+
+然後**以 root 身份**執行 `service network-manager restart` 命令重新啟動 network-manager 服務即可，您會發現 NetworkManager 設定介面中該網路介面有關的連線都不見了，表示 NetworkManager 不再管理該網路介面。
 
 ## 3. 啟動 wpa_supplicant 幕後程式
 
