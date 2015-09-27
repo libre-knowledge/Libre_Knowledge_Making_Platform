@@ -157,6 +157,14 @@ Wiphy phy0
 
 由於 Network Manager 目前(2015/6/1)不支援 Wi-Fi Direct 連線，所以我們要讓 Network Manager 不管理 Wi-Fi 無線網路介面卡以避免發生衝突問題。
 
+## 3. 啟動 wpa_supplicant 幕後程式
+
+## 4. 使用 wpa_cli 建立 Wifi Direct 連線
+### 使用 PBC 法
+### 使用 PIN 法
+
+## 5. 設定 IP 地址
+
 ## 參考資料<br />Reference Data
 * [Wi-Fi直連 - 維基百科，自由的百科全書](http://zh.wikipedia.org/wiki/Wi-Fi%E7%9B%B4%E8%BF%9E)
 * [Wi-Fi Direct™: Connect with the possibilities - YouTube](https://www.youtube.com/watch?v=je2lWjfpywQ)
